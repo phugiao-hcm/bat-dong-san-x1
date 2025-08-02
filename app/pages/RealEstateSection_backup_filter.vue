@@ -14,18 +14,31 @@
                 tại Phú Giáo và các khu vực lân cận.
             </p>
 
-            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
-                <PropertyCard
-                    v-for="(item, index) in filteredProperties"
-                    :key="index"
-                    :property="item"
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+                <!-- Sidebar lọc: ẩn trên mobile, hiện trên md+ -->
+                <FilterSidebar
+                    class="hidden md:block md:col-span-1"
+                    v-model:filters="filters"
                 />
-                <p
-                    v-if="filteredProperties.length === 0"
-                    class="col-span-full text-center text-gray-500 mt-8"
-                >
-                    Không có bất động sản phù hợp.
-                </p>
+
+                <!-- Content danh sách bất động sản -->
+                <div class="col-span-1 md:col-span-3">
+                    <div
+                        class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"
+                    >
+                        <PropertyCard
+                            v-for="(item, index) in filteredProperties"
+                            :key="index"
+                            :property="item"
+                        />
+                        <p
+                            v-if="filteredProperties.length === 0"
+                            class="col-span-full text-center text-gray-500 mt-8"
+                        >
+                            Không có bất động sản phù hợp.
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -97,26 +110,6 @@ const properties = [
         price: 2.7,
         type: "Đất nền",
         city: "Cần Thơ",
-    },
-    {
-        title: "Căn hộ tiện nghi",
-        image: "/images/6.png",
-        area: 90,
-        bedrooms: 3,
-        direction: "Đông Bắc",
-        price: 4.3,
-        type: "Chung cư",
-        city: "Hà Nội",
-    },
-    {
-        title: "Căn hộ tiện nghi",
-        image: "/images/7.png",
-        area: 90,
-        bedrooms: 3,
-        direction: "Đông Bắc",
-        price: 4.3,
-        type: "Chung cư",
-        city: "Hà Nội",
     },
     {
         title: "Căn hộ tiện nghi",
