@@ -1,108 +1,107 @@
 <template>
-    <section class="min-h-screen bg-white text-gray-800 py-16">
-        <div class="max-w-6xl mx-auto px-4">
-            <!-- Tiêu đề -->
-            <div class="text-center mb-12">
-                <h1 class="text-4xl font-bold text-blue-600">Về Chúng Tôi</h1>
-                <p class="mt-4 text-gray-600 max-w-2xl mx-auto">
-                    BĐS Phú Giáo Luxury - Kết nối nhà đất Phú Giáo uy tín, minh
-                    bạch và tận tâm.
+    <div class="bg-gray-50 text-gray-800">
+        <!-- Hero Section -->
+        <section class="bg-white py-16">
+            <div class="max-w-6xl mx-auto px-4 text-center">
+                <h1 class="text-4xl md:text-5xl font-bold mb-4">
+                    Về Chúng Tôi
+                </h1>
+                <p class="text-lg text-gray-600">
+                    Chúng tôi là đội ngũ đam mê cung cấp sản phẩm chất lượng và
+                    dịch vụ tận tâm đến từng khách hàng.
                 </p>
             </div>
+        </section>
 
-            <!-- Giới thiệu -->
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
-                <img
-                    :src="imageUrl"
-                    alt="Giới thiệu"
-                    class="rounded-2xl shadow-md"
-                />
+        <!-- Mission Section -->
+        <section class="py-16">
+            <div
+                class="max-w-6xl mx-auto px-4 grid md:grid-cols-2 gap-12 items-center"
+            >
                 <div>
-                    <h2 class="text-2xl font-semibold mb-3 text-blue-500">
-                        Chúng tôi là ai?
+                    <h2 class="text-3xl font-bold mb-4">
+                        Sứ Mệnh Của Chúng Tôi
                     </h2>
-                    <p class="text-gray-700 leading-relaxed">
-                        BĐS Phú Giáo Luxury là đơn vị chuyên môi giới nhà đất,
-                        đất nền, đất vườn, đất thổ cư tại khu vực huyện Phú
-                        Giáo, tỉnh Bình Dương. Với đội ngũ tư vấn tận tâm và
-                        kinh nghiệm, chúng tôi cam kết mang lại giải pháp phù
-                        hợp và an toàn nhất cho khách hàng.
+                    <p class="text-gray-600 mb-4">
+                        Mang đến trải nghiệm mua sắm hoa quả trực tuyến tốt nhất
+                        cho người tiêu dùng Việt, với cam kết về chất lượng,
+                        nguồn gốc rõ ràng và dịch vụ hậu mãi tận tình.
                     </p>
+                    <ul class="list-disc list-inside text-gray-600 space-y-2">
+                        <li>Đặt khách hàng làm trung tâm</li>
+                        <li>Minh bạch và trung thực</li>
+                        <li>Không ngừng đổi mới</li>
+                    </ul>
+                </div>
+                <div>
+                    <img
+                        src="/images/4.png"
+                        alt="Team"
+                        class="rounded-xl shadow-lg"
+                    />
                 </div>
             </div>
+        </section>
 
-            <!-- Tầm nhìn & Sứ mệnh -->
-            <div class="mt-20 grid grid-cols-1 md:grid-cols-2 gap-8">
-                <div class="bg-blue-50 p-6 rounded-xl shadow-md">
-                    <h3 class="text-xl font-semibold text-blue-600 mb-2">
-                        Tầm nhìn
-                    </h3>
-                    <p class="text-gray-700">
-                        Trở thành đơn vị bất động sản hàng đầu tại Phú Giáo,
-                        mang lại giá trị thực cho từng mảnh đất và từng khách
-                        hàng.
-                    </p>
-                </div>
-                <div class="bg-blue-50 p-6 rounded-xl shadow-md">
-                    <h3 class="text-xl font-semibold text-blue-600 mb-2">
-                        Sứ mệnh
-                    </h3>
-                    <p class="text-gray-700">
-                        Cung cấp thông tin minh bạch, dịch vụ tận tâm và hỗ trợ
-                        khách hàng đầu tư, an cư hiệu quả nhất.
-                    </p>
-                </div>
-            </div>
-
-            <!-- Ưu điểm nổi bật -->
-            <div class="mt-20">
-                <h2
-                    class="text-2xl font-semibold text-center text-blue-600 mb-6"
-                >
-                    Tại sao chọn chúng tôi?
+        <!-- Team Section -->
+        <section class="bg-white py-16">
+            <div class="max-w-6xl mx-auto px-4">
+                <h2 class="text-3xl font-bold text-center mb-12">
+                    Đội Ngũ Lãnh Đạo
                 </h2>
-                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-                    <div
-                        class="bg-white p-6 shadow-md rounded-xl text-center border"
-                    >
-                        <i
-                            class="i-lucide-shield-check text-4xl text-blue-500 mb-2"
-                        ></i>
-                        <h4 class="font-semibold mb-1">Uy tín hàng đầu</h4>
-                        <p class="text-gray-600 text-sm">
-                            Minh bạch pháp lý – hỗ trợ từ A đến Z.
+                <div class="grid gap-8 md:grid-cols-3 text-center">
+                    <div>
+                        <img
+                            src="/images/3.png"
+                            class="mx-auto rounded-full shadow-md mb-4"
+                        />
+                        <h3 class="text-xl font-semibold">Nguyễn Văn A</h3>
+                        <p class="text-gray-500 text-sm">Giám đốc điều hành</p>
+                    </div>
+                    <div>
+                        <img
+                            src="/images/2.png"
+                            class="mx-auto rounded-full shadow-md mb-4"
+                        />
+                        <h3 class="text-xl font-semibold">Trần Thị B</h3>
+                        <p class="text-gray-500 text-sm">
+                            Trưởng phòng Marketing
                         </p>
                     </div>
-                    <div
-                        class="bg-white p-6 shadow-md rounded-xl text-center border"
-                    >
-                        <i
-                            class="i-lucide-users text-4xl text-blue-500 mb-2"
-                        ></i>
-                        <h4 class="font-semibold mb-1">Tư vấn tận tâm</h4>
-                        <p class="text-gray-600 text-sm">
-                            Đội ngũ am hiểu thị trường, hỗ trợ chu đáo.
-                        </p>
-                    </div>
-                    <div
-                        class="bg-white p-6 shadow-md rounded-xl text-center border"
-                    >
-                        <i
-                            class="i-lucide-map-pin text-4xl text-blue-500 mb-2"
-                        ></i>
-                        <h4 class="font-semibold mb-1">Sản phẩm phong phú</h4>
-                        <p class="text-gray-600 text-sm">
-                            Đa dạng đất vườn, thổ cư, chính chủ tại Phú Giáo.
+                    <div>
+                        <img
+                            src="/images/6.png"
+                            class="mx-auto rounded-full shadow-md mb-4"
+                        />
+                        <h3 class="text-xl font-semibold">Lê Văn C</h3>
+                        <p class="text-gray-500 text-sm">
+                            Trưởng phòng Kinh doanh
                         </p>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+
+        <!-- Footer CTA -->
+        <section class="bg-blue-50 py-12">
+            <div class="max-w-3xl mx-auto text-center">
+                <h2 class="text-2xl font-bold mb-4">
+                    Bạn muốn hợp tác với chúng tôi?
+                </h2>
+                <p class="text-gray-600 mb-6">
+                    Chúng tôi luôn tìm kiếm những đối tác, nhà cung cấp và thành
+                    viên mới cho đội ngũ của mình.
+                </p>
+                <a
+                    href="tel:0937704598"
+                    class="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition"
+                    >Liên hệ ngay: 0937 704 598</a
+                >
+            </div>
+        </section>
+    </div>
 </template>
 
-
 <script setup>
-const base = useRuntimeConfig().app.baseURL;
-const imageUrl = `${base}images/1.png`;
+// Không cần script cho trang tĩnh này
 </script>

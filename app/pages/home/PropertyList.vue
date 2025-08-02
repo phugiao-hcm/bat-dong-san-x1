@@ -30,18 +30,21 @@
 <script setup>
 const properties = [
     {
+        slug: "nha-mat-pho-quan-1",
         name: "Căn hộ Vinhomes Central Park",
         location: "Quận Bình Thạnh, TP.HCM",
         price: "4.2 Tỷ",
         image: "images/1.png",
     },
     {
+        slug: "nha-mat-pho-quan-2",
         name: "Biệt thự nghỉ dưỡng Đà Lạt",
         location: "Phường 9, Đà Lạt",
         price: "6.8 Tỷ",
         image: "images/6.png",
     },
     {
+        slug: "nha-mat-pho-quan-3",
         name: "Chung cư cao cấp The Marq",
         location: "Quận 1, TP.HCM",
         price: "5.5 Tỷ",

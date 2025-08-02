@@ -14,31 +14,18 @@
                 tại Phú Giáo và các khu vực lân cận.
             </p>
 
-            <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
-                <!-- Sidebar lọc: ẩn trên mobile, hiện trên md+ -->
-                <FilterSidebar
-                    class="hidden md:block md:col-span-1"
-                    v-model:filters="filters"
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
+                <PropertyCard
+                    v-for="(item, index) in filteredProperties"
+                    :key="index"
+                    :property="item"
                 />
-
-                <!-- Content danh sách bất động sản -->
-                <div class="col-span-1 md:col-span-3">
-                    <div
-                        class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"
-                    >
-                        <PropertyCard
-                            v-for="(item, index) in filteredProperties"
-                            :key="index"
-                            :property="item"
-                        />
-                        <p
-                            v-if="filteredProperties.length === 0"
-                            class="col-span-full text-center text-gray-500 mt-8"
-                        >
-                            Không có bất động sản phù hợp.
-                        </p>
-                    </div>
-                </div>
+                <p
+                    v-if="filteredProperties.length === 0"
+                    class="col-span-full text-center text-gray-500 mt-8"
+                >
+                    Không có bất động sản phù hợp.
+                </p>
             </div>
         </div>
     </section>
@@ -62,6 +49,7 @@ const filters = reactive({
 
 const properties = [
     {
+        slug: "nha-mat-pho-quan-1",
         title: "Nhà mặt phố Quận 1",
         image: "images/1.png",
         area: 100,
@@ -72,6 +60,7 @@ const properties = [
         city: "TP.HCM",
     },
     {
+        slug: "nha-mat-pho-quan-2",
         title: "Biệt thự ven sông",
         image: "images/2.png",
         area: 250,
@@ -82,6 +71,7 @@ const properties = [
         city: "Hà Nội",
     },
     {
+        slug: "nha-mat-pho-quan-3",
         title: "Chung cư cao cấp",
         image: "images/3.png",
         area: 80,
@@ -92,6 +82,7 @@ const properties = [
         city: "Đà Nẵng",
     },
     {
+        slug: "nha-mat-pho-quan-4",
         title: "Nhà riêng khu dân cư",
         image: "images/4.png",
         area: 120,
@@ -102,6 +93,7 @@ const properties = [
         city: "TP.HCM",
     },
     {
+        slug: "nha-mat-pho-quan-5",
         title: "Đất nền đẹp",
         image: "images/5.png",
         area: 150,
@@ -112,6 +104,29 @@ const properties = [
         city: "Cần Thơ",
     },
     {
+        slug: "nha-mat-pho-quan-6",
+        title: "Căn hộ tiện nghi",
+        image: "images/6.png",
+        area: 90,
+        bedrooms: 3,
+        direction: "Đông Bắc",
+        price: 4.3,
+        type: "Chung cư",
+        city: "Hà Nội",
+    },
+    {
+        slug: "nha-mat-pho-quan-7",
+        title: "Căn hộ tiện nghi",
+        image: "images/7.png",
+        area: 90,
+        bedrooms: 3,
+        direction: "Đông Bắc",
+        price: 4.3,
+        type: "Chung cư",
+        city: "Hà Nội",
+    },
+    {
+        slug: "nha-mat-pho-quan-8",
         title: "Căn hộ tiện nghi",
         image: "images/6.png",
         area: 90,

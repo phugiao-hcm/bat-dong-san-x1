@@ -9,9 +9,9 @@
 </template>
 
 <script setup>
-import HeroSection from "./HeroSection.vue";
-import LandSection from "./LandSection.vue";
-import RealEstateSection from "./RealEstateSection.vue";
-import NewsSection from "./NewsSection.vue";
-import FeaturedSlider from "./FeaturedSlider.vue";
+import HeroSection from "./home/HeroSection.vue";
+import LandSection from "./home/LandSection.vue";
+import RealEstateSection from "./home/RealEstateSection.vue";
+import NewsSection from "./home/NewsSection.vue";
+import FeaturedSlider from "./home/FeaturedSlider.vue";
 </script>

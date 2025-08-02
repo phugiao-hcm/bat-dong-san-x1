@@ -5,7 +5,7 @@
         >
             <!-- Logo -->
             <NuxtLink to="/" class="text-2xl font-extrabold text-blue-600">
-                BĐS Luxury
+                BĐS Phú Giáo
             </NuxtLink>
 
             <!-- Hamburger Icon for Mobile -->
@@ -57,14 +57,14 @@
                     >Dự án</NuxtLink
                 >
                 <NuxtLink
+                    to="/news"
+                    class="hover:text-blue-600 transition-colors"
+                    >Tin tức</NuxtLink
+                >
+                <NuxtLink
                     to="/about"
                     class="hover:text-blue-600 transition-colors"
                     >Về chúng tôi</NuxtLink
-                >
-                <NuxtLink
-                    to="/contact"
-                    class="hover:text-blue-600 transition-colors"
-                    >Liên hệ</NuxtLink
                 >
             </nav>
         </div>
@@ -86,18 +86,18 @@
                 Dự án
             </NuxtLink>
             <NuxtLink
+                to="/news"
+                @click="isOpen = false"
+                class="block hover:text-blue-600 transition-colors"
+            >
+                Tin tức
+            </NuxtLink>
+            <NuxtLink
                 to="/about"
                 @click="isOpen = false"
                 class="block hover:text-blue-600 transition-colors"
             >
                 Về chúng tôi
-            </NuxtLink>
-            <NuxtLink
-                to="/contact"
-                @click="isOpen = false"
-                class="block hover:text-blue-600 transition-colors"
-            >
-                Liên hệ
             </NuxtLink>
         </div>
     </header>

@@ -60,26 +60,31 @@ import "swiper/css/pagination";
 
 const featuredProperties = [
     {
+        slug: "nha-mat-pho-quan-1",
         title: "Nhà phố Phú Giáo 120m²",
         price: 3.2,
         image: "images/1.png",
     },
     {
+        slug: "nha-mat-pho-quan-2",
         title: "Biệt thự sân vườn đẹp",
         price: 5.8,
         image: "images/2.png",
     },
     {
+        slug: "nha-mat-pho-quan-3",
         title: "Chung cư cao cấp TP.Thủ Dầu Một",
         price: 2.7,
         image: "images/3.png",
     },
     {
+        slug: "nha-mat-pho-quan-4",
         title: "Đất nền Phú Giáo vị trí đẹp",
         price: 1.9,
         image: "images/4.png",
     },
     {
+        slug: "nha-mat-pho-quan-5",
         title: "Căn hộ tiện nghi hiện đại",
         price: 3.5,
         image: "images/5.png",
