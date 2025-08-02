@@ -63,7 +63,7 @@ const filters = reactive({
 const properties = [
     {
         title: "Nhà mặt phố Quận 1",
-        image: "/images/1.png",
+        image: "images/1.png",
         area: 100,
         bedrooms: 3,
         direction: "Đông",
@@ -73,7 +73,7 @@ const properties = [
     },
     {
         title: "Biệt thự ven sông",
-        image: "/images/2.png",
+        image: "images/2.png",
         area: 250,
         bedrooms: 5,
         direction: "Tây",
@@ -83,7 +83,7 @@ const properties = [
     },
     {
         title: "Chung cư cao cấp",
-        image: "/images/3.png",
+        image: "images/3.png",
         area: 80,
         bedrooms: 2,
         direction: "Nam",
@@ -93,7 +93,7 @@ const properties = [
     },
     {
         title: "Nhà riêng khu dân cư",
-        image: "/images/4.png",
+        image: "images/4.png",
         area: 120,
         bedrooms: 4,
         direction: "Bắc",
@@ -103,7 +103,7 @@ const properties = [
     },
     {
         title: "Đất nền đẹp",
-        image: "/images/5.png",
+        image: "images/5.png",
         area: 150,
         bedrooms: 0,
         direction: "Tây Nam",
@@ -113,7 +113,7 @@ const properties = [
     },
     {
         title: "Căn hộ tiện nghi",
-        image: "/images/6.png",
+        image: "images/6.png",
         area: 90,
         bedrooms: 3,
         direction: "Đông Bắc",

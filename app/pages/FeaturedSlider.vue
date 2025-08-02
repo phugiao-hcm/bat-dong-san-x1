@@ -62,27 +62,27 @@ const featuredProperties = [
     {
         title: "Nhà phố Phú Giáo 120m²",
         price: 3.2,
-        image: "/images/1.png",
+        image: "images/1.png",
     },
     {
         title: "Biệt thự sân vườn đẹp",
         price: 5.8,
-        image: "/images/2.png",
+        image: "images/2.png",
     },
     {
         title: "Chung cư cao cấp TP.Thủ Dầu Một",
         price: 2.7,
-        image: "/images/3.png",
+        image: "images/3.png",
     },
     {
         title: "Đất nền Phú Giáo vị trí đẹp",
         price: 1.9,
-        image: "/images/4.png",
+        image: "images/4.png",
     },
     {
         title: "Căn hộ tiện nghi hiện đại",
         price: 3.5,
-        image: "/images/5.png",
+        image: "images/5.png",
     },
 ];
 

@@ -38,21 +38,21 @@ const newsList = [
     {
         title: "Giá đất Phú Giáo tăng mạnh trong năm 2025",
         date: "01/08/2025",
-        image: "/images/1.png",
+        image: "images/1.png",
         summary:
             "Giá đất tại huyện Phú Giáo đang có xu hướng tăng mạnh nhờ sự phát triển hạ tầng và thu hút đầu tư từ các dự án lớn...",
     },
     {
         title: "Kinh nghiệm đầu tư bất động sản hiệu quả",
         date: "28/07/2025",
-        image: "/images/2.png",
+        image: "images/2.png",
         summary:
             "Để đầu tư bất động sản hiệu quả, nhà đầu tư cần nắm bắt được thị trường, chọn vị trí phù hợp và đánh giá đúng tiềm năng phát triển...",
     },
     {
         title: "Chính sách mới hỗ trợ nhà đầu tư bất động sản tại Bình Dương",
         date: "25/07/2025",
-        image: "/images/3.png",
+        image: "images/3.png",
         summary:
             "Chính quyền Bình Dương vừa ban hành các chính sách hỗ trợ phát triển bất động sản, tạo điều kiện thuận lợi cho nhà đầu tư...",
     },

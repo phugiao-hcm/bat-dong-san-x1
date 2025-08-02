@@ -13,7 +13,7 @@
             <!-- Giới thiệu -->
             <div class="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
                 <img
-                    src="/images/1.png"
+                    :src="imageUrl"
                     alt="Giới thiệu"
                     class="rounded-2xl shadow-md"
                 />
@@ -100,3 +100,9 @@
         </div>
     </section>
 </template>
+
+
+<script setup>
+const base = useRuntimeConfig().app.baseURL;
+const imageUrl = `${base}images/1.png`;
+</script>
