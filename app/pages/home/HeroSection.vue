@@ -16,7 +16,7 @@
                 nghi.
             </p>
             <NuxtLink
-                to="#properties"
+                to="/projects"
                 class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-lg transition"
             >
                 Xem Dự Án
