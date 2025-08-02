@@ -52,7 +52,7 @@ const news = [
         title: "Giá đất Hà Nội tăng nhẹ đầu năm 2025",
         description:
             "Thị trường bất động sản thủ đô có dấu hiệu phục hồi sau thời gian trầm lắng. Các quận vùng ven chứng kiến mức tăng giá nhẹ...",
-        image: "/images/1.png",
+        image: "images/1.png",
     },
     {
         id: 2,
@@ -60,7 +60,7 @@ const news = [
         title: "Biệt thự biển Đà Nẵng thu hút giới đầu tư",
         description:
             "Khu vực ven biển Đà Nẵng tiếp tục là điểm nóng khi hàng loạt dự án biệt thự nghỉ dưỡng được tung ra với mức giá hấp dẫn...",
-        image: "/images/2.png",
+        image: "images/2.png",
     },
     {
         id: 3,
@@ -68,7 +68,7 @@ const news = [
         title: "Dự đoán thị trường BĐS 6 tháng cuối năm",
         description:
             "Các chuyên gia nhận định phân khúc nhà ở bình dân và đất nền vẫn giữ vai trò chủ đạo trong 6 tháng cuối năm 2025...",
-        image: "/images/3.png",
+        image: "images/3.png",
     },
 ];
 </script>
