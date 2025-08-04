@@ -52,28 +52,30 @@
                 <div class="grid gap-8 md:grid-cols-3 text-center">
                     <div>
                         <img
-                            src="/images/3.png"
+                            src="/images/staff_1.png"
                             class="mx-auto rounded-full shadow-md mb-4"
                         />
-                        <h3 class="text-xl font-semibold">Nguyễn Văn A</h3>
+                        <h3 class="text-xl font-semibold">
+                            Trần Thị Bích Tuyền
+                        </h3>
                         <p class="text-gray-500 text-sm">Giám đốc điều hành</p>
                     </div>
                     <div>
                         <img
-                            src="/images/2.png"
+                            src="/images/staff_3.png"
                             class="mx-auto rounded-full shadow-md mb-4"
                         />
-                        <h3 class="text-xl font-semibold">Trần Thị B</h3>
+                        <h3 class="text-xl font-semibold">Nguyễn Văn Minh</h3>
                         <p class="text-gray-500 text-sm">
                             Trưởng phòng Marketing
                         </p>
                     </div>
                     <div>
                         <img
-                            src="/images/6.png"
+                            src="/images/staff_2.png"
                             class="mx-auto rounded-full shadow-md mb-4"
                         />
-                        <h3 class="text-xl font-semibold">Lê Văn C</h3>
+                        <h3 class="text-xl font-semibold">Lê Thị Tuyết</h3>
                         <p class="text-gray-500 text-sm">
                             Trưởng phòng Kinh doanh
                         </p>
