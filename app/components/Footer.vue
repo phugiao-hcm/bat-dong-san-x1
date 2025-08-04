@@ -10,6 +10,10 @@
                     Nơi kết nối nhà đất Phú Giáo. Uy tín - Minh bạch - Tận tâm
                     phục vụ.
                 </p>
+                <p class="text-gray-400 text-sm mt-3">
+                    <strong>Địa chỉ:</strong> Xã Phước Hòa, Huyện Phú Giáo, Tỉnh
+                    Bình Dương
+                </p>
             </div>
 
             <!-- Liên kết -->
